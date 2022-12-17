@@ -1,4 +1,4 @@
-# MI01-Image-Contour-detector
+# MI01-Image-Contour-detector (UTC project)
 ## A small course project that reveals the contours of an image
 
 ### Introduction  :
