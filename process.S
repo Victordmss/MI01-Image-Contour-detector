@@ -1,4 +1,4 @@
-.file "process_image_asm.S"
+.file "process.S"
 .intel_syntax noprefix
 
 .text
@@ -15,8 +15,8 @@
   par l'appelé. Les autres registres peuvent être modifiés sans risque.
 ***********************************************************************/
 
-.global process_image_asm
-process_image_asm:
+.global process
+process:
 	push    rbp
 	mov     rbp, rsp
 	push rbx		//On utilise ebx, on sauvegarde donc le registre
